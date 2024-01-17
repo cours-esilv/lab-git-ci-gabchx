@@ -4,21 +4,21 @@
 
 ## Instructions
 
-Answers to the questions in this statement must be submitted as files named according to the question number in your repository, in the `answers` folder.
-Each answer will be the subject of a new file in your repo.
+Les réponses aux questions posées dans cet énoncé doivent être soumises sous forme de fichiers nommé en fonction du numéro de la question au sein de votre repository, dans le dossier `answers`.
+Chaque réponse fera l'objet d'une nouveau fichier dans votre repo.
 
-> Questions requiring an answer in the form of a file will be tagged with the following icon: ⚠️ These files are corrected automatically by Github Autograde.
+> Les questions requérant une réponse sous forme de fichier seront taggées par l'icone suivante: ⚠️ Ces fichiers sont corrigés automatiquement par Github Autograde
 
-> Commits are not optional. Commits are not optional **Commit as soon as the statement asks you to**.
+> Les commits ne sont pas facultatifs. **Commitez au minimum dès que l'énoncé vous le demande**.
 
-The TP must be done individually and will be based on the answers in the files in the `answers` folder, as well as on the code in your personal repositories.
+Le TP doit être rendu individuellement et se basera sur les réponses présentes dans les fichiers du dossier `answers`, ainsi que sur le code présent dans vos repositories personnels.
 
-## Reminders
+## Rappels
 
 ### Git
 
-[Official Git Documentation](https://git-scm.com/docs)
-Command | Description
+[Git Documentation Officielle](https://git-scm.com/docs)
+Commande | Description
 -- | --
 `git clone` | Clone a repository on your computer
 `git add` | Add files to the staging area (which will be taken into account in the next commit)
@@ -44,7 +44,7 @@ Command | Description
 
 ### Github actions
 
-- SaaS service - [github.com/features/actions](https://github.com/features/actions)
+- Service SaaS - [github.com/features/actions](https://github.com/features/actions)
 - Pipeline: CI vs CD
 - Pipeline: Configuration as code
 
@@ -52,64 +52,64 @@ Command | Description
 
 ## 1 : Git
 
-### 1.0 : Creating a Github account
+### 1.0 : Création de compte Github
 
-Go to [Github](https://github.com/) and create an account if you have not already done so.
+Allez sur [Github](https://github.com/) et se créer un compte si ce n'est pas déjà la cas.
 
-### 1.1 : Accept the assignment
+### 1.1 : Accepter l'assignment
 
-Follow the link on the board or in the Teams channel to get a personal copy of this repository in the GitHub Classroom organization `cours-esilv`.
+Suivez le lien présent au tableau ou dans le channel de votre groupe Discord pour récupérer une copie personnelle de ce repository dans l'organisation GitHub Classroom `devops-cloud-courses`.
 
-### 1.2 : Clone the repository
+### 1.2 : Cloner le repository
 
-Clone the newly copied repo on your computer
+Clonez le repo nouvellement copié sur votre ordinateur
 
-### 1.3 : Make a commit
+### 1.3 : Faire un commit
 
-In your repo, edit the identity.md file and fill it with your personal data (first and last name).
+Dans votre repo, éditez le fichier identity.md et remplissez le avec vos données personnelles (nom, prénom)
 
-Commit and pushe changes made to the file
+Committez et pushez les changements apportés au fichier
 
-> Commits are not optional. **Commit at least as soon as the statement asks you to**.
+> Les commits ne sont pas facultatifs. **Commitez au minimum dès que l'énoncé vous le demande**.
 
 > ⚠️ **ANSWER**: Create a file called `1.3` containing the commands you used to commit and push your changes.
 
-### 1.4 : Browsing the logs
+### 1.4 : Naviguer dans les logs
 
-Display the logs of previous commits.
+Affichez les logs des commits précédents.
 
 Bear in mind that everything has been logged since the start of the project. You can find messages, dates and also the authors of past commits.
 
 > ⚠️ **ANSWER**: Create a file called `1.4` containing the command you used to view the logs.
 
-### 1.5: Ginny has disappeared, I'm afraid we'll never find her!
+### 1.5 : Ginny a disparu, j'ai peur qu'on ne la retrouve jamais !
 
-Using the command you used in the previous question, find **Ginny** before it's too late!
+A l'aide de la commande utilisée dans la question précédente, retrouvez la trace de **Ginny** avant qu'il ne soit trop tard !
 
-> Hint\*\*: Look in the documentation for the previous command to find ideas for other commands.
+> **Indice**: Cherchez dans la documentation de la commande précédente pour trouver des idées de commandes.
 
 > ⚠️ **ANSWER**: Create a file called `1.5` containing **only** the command you used to track down Ginny.
 
-### 1.6 : List the branches
+### 1.6 : Listez les branches
 
-List **all** the branches in the repository.
+Listez **toutes** les branches présentes dans le repository.
 
-Do all the branches seem normal to you? Is there a branch that catches your eye?
-If so, check it out.
+Est-ce que toutes les branches vous paraissents normales ? Y a t-il une branche qui retient votre attention ?
+Si oui, déplacez vous dessus (checkout).
 
 > ⚠️ **ANSWER**: Create a file called `1.6` containing the command you used to display the branches in your repo.
 
-### 1.7 : Merge the branch
+### 1.7 : Mergez la branche
 
-Now that you've had a look at the branch that caught your attention, merge the changes made to it into your main branch (snape -> main). Then delete the `snape` branch locally.
+Maintenant que vous avez fait un tour sur la branche qui a retenue votre attention, rappatriez les changements présents sur cette dernière sur votre branche principale (snape -> main). Puis, supprimez la branch `snape` localement.
 
 > ⚠️ **ANSWER**: Create a file called `1.7.1` containing the command you used to merge the `snape` branch into the `main` branch.
 
 > ⚠️ **ANSWER**: Create a file called `1.7.2` containing the command you used to delete the `snape` branch (after merging the changes to `main`).
 
-### 1.8: Create a branch
+### 1.8 : Créez une branche
 
-Now that you only have one `main` branch in your repo, create a branch from `main`. The branch you want to create should be called `feature/` followed by the first letter of your first name and then your surname in lower case (no spaces or accents in the name).
+Maintenant que vous n'avez plus qu'une branche `main` dans votre repo, créez une branche à partir de `main`. La branche à créer doit s'appeler `feature/` suivi de la première lettre de votre prénom puis du nom de famille en minuscule (pas d'espace ni d'accent dans le nom).
 
 > Ex Albus Dumbledore --> feature/adumbledore
 
@@ -117,18 +117,18 @@ Then go to your newly created `feature/{name}` branch.
 
 > ⚠️ **ANSWER**: Create a file called `1.8` containing the commands you used to create it, and move to the new branch.
 
-### 1.9: Ah, that's where you would have liked to have taken the last course :trollface:
+### 1.9 : Ah, c'est la que tu aurais aimé suivre le dernier cours :trollface:
 
-Answer the questions in the `questions.md` file, then commit the changes to the `feature/{name}` branch.
-Finally, upload all the changes you've made to all the branches to your GitHub repository.
+Répondez aux questions contenues dans le fichier `questions.md`, puis committez les changements sur la branche `feature/{nom}`.
+Enfin, pushez tous vos changements présents réalisés sur toutes les branches sur votre repository GitHub.
 
 > ⚠️ **ANSWER**: Create a file called `1.9` containing the commands you used to push all the branches to your GitHub repo.
 
-### 1.10 : Pull request time !
+### 1.10 : Pull request time !!
 
-In the GitHub web interface, open a pull request from your `feature/{name}` branch pointing to the develop branch of your repository.
+Dans l'interface web GitHub, ouvrez une pull request partant de votre branche `feature/{nom}` pointant sur la branche develop de votre repository.
 
-> Warning\*\*: Don't forget to add me (laurentgrangeau) as a reviewer of your pull request so that I can correct you.
+> **Warning**: Pensez bien à m'ajouter (arthur) en tant que reviewer de votre pull request afin que je puisse vous corriger.
 
 For more help on pull requests see the [official documentation](https://help.github.com/articles/about-pull-requests/)
 
@@ -139,46 +139,46 @@ In this second part, you must use the same repo as that obtained at the end of p
 
 > ⚠️ **WARNING**: Each question requiring a code modification requires at least one commit and one push in your repository. The breakdown of commits is taken into account in the scoring.
 
-> To carry out all the steps required in this part, you will place yourself on the `main` branch.
+> Pour réaliser l'ensemble des étapes demandées dans cette partie, vous vous placerez sur la branche `main`
 
-The aim of this second part of the tutorial is to implement a CI (continuous integration) pipeline to automate:
+Le but de cette seconde partie de TP est d'implémenter un pipeline CI (intégration continue) permettant d'automatiser:
 
-- downloading dependencies useful for building the application
-- build the application
-- testing the application and making it available in a UI that can be used by anyone
-- packaging the application using Docker - no pressure, I'll give you everything for the Docker part for now :ok_hand:
+- le téléchargement des dépendances utiles au build applicatif
+- le build de l'application
+- les tests de l'application et leur mise à disposition dans une UI utilisable par n'importe qui
+- le package de l'application à l'aide de Docker - sans pression, je vous donne tout pour la partie Docker pour l'instant :ok_hand:
 
-To do this, we're going to use a SaaS solution integrated into GitHub called **GitHub Actions**.
+Pour cela, nous allons utiliser une solution SaaS intégrée à GitHub appelée **GitHub Actions**.
 
-Thanks to its pipeline system, this solution can be used to implement the automations we want to carry out in this tutorial.
+Cette solution permet notamment grâce à son système de pipeline d'implémenter les automatisations que nous voulons réaliser dans ce TP.
 
-Pipelines are described in YAML (pipeline as code) code files.
+Les pipelines sont décrits à travers des fichiers de code YAML (pipeline as code).
 
 For an overview of GitHub Actions features, [see the official page](https://docs.github.com/en/actions)
 For more documentation on the syntax of YAML files, [see the official documentation](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions)
 
 **Important**: The above documentation will be essential for the successful completion of this and subsequent tasks.
 
-### 2.1: Creating your first Pipeline - Build & Test
+### 2.1 : Création de votre premier Pipeline - Build & Test
 
-On the home page of your repository (on GitHub), go to the `Actions` menu and click on `set up a workflow yourself`.
-This will display the YAML file corresponding to the Continuous Integration (CI) you are creating.
+Dans la page d'accueil de votre repository (sur GitHub), allez dans le menu `Actions` et cliquez sur `set up a workflow yourself`.
+Cela va vous afficher le fichier YAML correspondant à la Continuous Integration (CI) que vous êtes en train de créer.
 
-This file describes several essential steps in setting up a pipeline:
-**triggers** (`on` keyword): Defines the conditions under which the actions described in this pipeline will be carried out.
+Ce fichier décrit plusieurs étapes essentielles à la mise en place d'un pipeline:
 
-- steps\*\*: The description of the steps to be automated
+- **triggers** (`on` keyword): Définit à quelles conditions seront réalisées les actions décrites dans ce pipeline
+- **steps**: La description des étapes à automatiser
 
-You can now click on the `Start commit` button.
+Vous pouvez maintenant cliquer sur le bouton `Start commit`.
 
 > ⚠️ **WARNING**: Don't forget to add a meaningful commit message to each commit. This will help you when you come back to the project in the future.
 
 Observe the execution of the pipeline in the GitHub Actions UI.
 
-### 2.2: Building our application
+### 2.2 : Buildons notre application
 
-For the moment, the build isn't doing much apart from displaying two messages.
-So we're going to modify the pipeline to build our java application.
+Pour l'instant, le build ne fait pas grand chose mis à part nous afficher deux messages.
+Nous allons donc modifier le pipeline pour faire en sorte de builder notre application java.
 
 To do this, modify the `.github/workflows/main.yml` file to add the following build steps:
 
@@ -195,14 +195,14 @@ To do this, modify the `.github/workflows/main.yml` file to add the following bu
   run: mvn --batch-mode --update-snapshots package
 ```
 
-Start your changes and observe the build of your application.
+Commitez vos changements et observez le build de votre application.
 
-### 2.3: Integrate test results
+### 2.3 : Intégrer les résultats de tests
 
-If you look closely at the build logs, you will see that unit tests are being run.
-We are going to retrieve the test report and display it in the pipeline result.
+Si vous observez bien les logs de build, vous verrez que des tests unitaires sont exécutés.
+Nous allons récupérer le rapport de test pour l'afficher dans le résultat du pipeline.
 
-To do this, modify the `.github/workflows/main.yml` file to add the following build steps:
+Pour cela, modifiez le fichier `.github/workflows/main.yml` pour y ajouter les étapes de build suivantes:
 
 ```yaml
 # Publie les résultats de test
@@ -215,12 +215,12 @@ To do this, modify the `.github/workflows/main.yml` file to add the following bu
 
 Start your changes and observe the build and the results of your application's unit tests.
 
-### 2.4: Publishing the built artifact
+### 2.4 : Publier l'artifact buildé
 
-You are now going to publish the artifact you built in the previous steps.
-This allows you to download the artifact in question and also to deploy it in later stages on different environments.
+Vous allez maintenant publier l'artifact que vous avez buildé dans les étapes précédentes.
+Cela vous permet de télécharger l'artifact en question mais aussi de le déployer dans des étapes ultérieures sur différents environnements.
 
-To do this, modify the `.github/workflows/main.yml` file to add the following build steps:
+Pour cela, modifiez le fichier `.github/workflows/main.yml` pour y ajouter les étapes de build suivantes:
 
 ```yaml
 # Publie les fichiers présents dans le dossier target dans un build artifact
@@ -233,10 +233,10 @@ To do this, modify the `.github/workflows/main.yml` file to add the following bu
 
 Commit your changes and observe the build and the artifact published on the build page.
 
-### 2.5: Adding packaging
+### 2.5 : Ajout du packaging
 
-So far the pipeline has built and tested the application but no deployable package has been created or persisted.
-You are going to create a Docker image to make our appliance ready for use.
+Jusqu'ici le pipeline build et test l'applicatif mais aucun package déployable n'est réalisé ou persisté.
+Vous allez créer une image Docker afin de rendre notre applicatif prêt à l'emploi.
 
 To do this, create a Dockerfile at the root of your project containing the following code:
 
@@ -266,23 +266,23 @@ Then modify the `.github/workflows/main.yml` file to add the following build ste
 
 Commit your changes one last time and observe the build of the Docker image via the logs.
 
-### 2.6: Setting up multi-branch management
+### 2.6 : Mise en place de la gestion multi-branche
 
-For the moment your pipeline is only triggered on the `main` branch (see trigger).
+Pour l'instant votre pipeline ne se déclanche que sur la branche `main` (cf. trigger).
 
-Change the value of the trigger to launch the pipeline on all branches of type:
+Modifiez la valeur du trigger afin de lancer le pipeline sur toutes les branches de type:
 
 - main
-- feature (beginning with the word feature/...)
+- feature (commençant par le mot feature/...)
 
-### 2.6: Creating a new branch
+### 2.6 : Création d'une nouvelle branche
 
-Your pipeline is now ready to execute the steps defined within it, whatever branches are created.
+Votre pipeline est maintenant prêt à exécuter les étapes définies en son sein quelles que soient les branches qui soient créées.
 
-Create a `feature/test-build` branch from the develop branch and note that the build is automatically applied to this branch.
+Créez une branche `feature/test-build` à partir de la branch develop et constatez que le build est automatiquement appliqué sur cette branche.
 
 ### 2.6 : Conclusion
 
-You can now create several features branches and see that the build, test and package stages are applied to these branches.
+Vous pouvez maintenant créer plusieurs branches features et vous apercevoir que ces branches se verront appliquée les étapes de build, test et package.
 
 All this configuration means that you can have a validation system that is as close as possible without wasting time on the rapid feedback you need to improve product quality.
