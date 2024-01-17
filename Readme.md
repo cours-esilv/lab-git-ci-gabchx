@@ -134,7 +134,8 @@ For more help on pull requests see the [official documentation](https://help.git
 
 ---
 
-#2: CI/CD with GitHub Actions
+# 2: CI/CD with GitHub Actions
+
 In this second part, you must use the same repo as that obtained at the end of part 1, by placing yourself on the `main` branch of your repo.
 
 > ⚠️ **WARNING**: Each question requiring a code modification requires at least one commit and one push in your repository. The breakdown of commits is taken into account in the scoring.
