@@ -16,6 +16,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Build with Maven
+        shell: bash
         run: mvn --batch-mode --update-snapshots package
 
       - name: Publish Unit Test Results
